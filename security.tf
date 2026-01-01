@@ -19,7 +19,7 @@ resource "aws_security_group" "loadtest_alb_sg" {
   }
 }
 
-# EC2 Security Group
+# EC2 Security Grou
 resource "aws_security_group" "loadtest_ec2_sg" {
   name        = "kickon-loadtest-ec2-sg"
   description = "EC2 SG for load test"
